@@ -1,0 +1,7 @@
+#Oculta todas las carpetas que tiene el proyecto.
+Options All -Indexes 
+
+#Reescritura
+RewriteEngine On
+
+RewriteRule ^([-a-zA-Z0-9/_]+)$ index.php?ruta=$1
